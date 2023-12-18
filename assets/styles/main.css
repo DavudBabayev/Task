@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+
+.container {
+  margin: auto;
+  padding: 0 32px;
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section2 {
+  width: 100%;
+  margin: 100px 0;
+}
+.section2 .sec2con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .sec2con .top {
+  width: 70%;
+  text-align: center;
+}
+.section2 .sec2con .top h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.section2 .sec2con .top p {
+  color: gray;
+  font-size: 22px;
+}
+.section2 .sec2con #search {
+  width: 200px;
+  height: 30px;
+  margin-top: 50px;
+  padding-left: 5px;
+}
+.section2 .sec2con .card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.section2 .sec2con .card div {
+  flex: 1 1 calc(33% - 30px);
+  max-width: calc(33% - 30px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: #fff3f2;
+  position: relative;
+  transition: all 0.4s ease-out;
+  z-index: 1;
+}
+.section2 .sec2con .card div::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  background: #E9FFFD;
+  transition: 0.6s;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+}
+.section2 .sec2con .card div:hover::before {
+  height: 100%;
+}
+.section2 .sec2con .card div img {
+  width: 20%;
+  height: auto;
+}
+.section2 .sec2con .card div a {
+  font-size: 24px;
+  color: black;
+}
+.section2 .sec2con .card div p {
+  font-size: 18px;
+  color: gray;
+}
+.section2 .sec2con .load {
+  width: 150px;
+  height: 30px;
+  border: none;
+  margin-top: 30px;
+  background-color: blue;
+  color: white;
+  cursor: grab;
+}
+.section2 .sec2con .load:active {
+  background-color: red;
+  cursor: grabbing;
+}/*# sourceMappingURL=main.css.map */

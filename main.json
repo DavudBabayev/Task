@@ -1,0 +1,58 @@
+{
+    "card": [
+        {
+            "id": 1,
+            "tag": "Unlimited Compnents",
+            "image": "https://preview.colorlib.com/theme/olla/assets/img/icon/services1.svg",
+            "text": "Combine sections from Olla's vast component library and create beautiful."
+        },
+        {
+            "id": 2,
+            "tag": "Awesome Support",
+            "image": "https://preview.colorlib.com/theme/olla/assets/img/icon/services2.svg",
+            "text": "Combine sections from Olla's vast component library and create beautiful."
+        },
+        {
+            "id": 3,
+            "tag": "Responsive Design",
+            "image": "https://preview.colorlib.com/theme/olla/assets/img/icon/services3.svg",
+            "text": "Combine sections from Olla's vast component library and create beautiful."
+        },
+        {
+            "id": 4,
+            "tag": "Unlimited Compnents",
+            "image": "https://preview.colorlib.com/theme/olla/assets/img/icon/services1.svg",
+            "text": "Combine sections from Olla's vast component library and create beautiful."
+        },
+        {
+            "id": 5,
+            "tag": "Awesome Support",
+            "image": "https://preview.colorlib.com/theme/olla/assets/img/icon/services2.svg",
+            "text": "Combine sections from Olla's vast component library and create beautiful."
+        },
+        {
+            "id": 6,
+            "tag": "Responsive Design",
+            "image": "https://preview.colorlib.com/theme/olla/assets/img/icon/services3.svg",
+            "text": "Combine sections from Olla's vast component library and create beautiful."
+        },
+        {
+            "id": 7,
+            "tag": "Unlimited Compnents",
+            "image": "https://preview.colorlib.com/theme/olla/assets/img/icon/services1.svg",
+            "text": "Combine sections from Olla's vast component library and create beautiful."
+        },
+        {
+            "id": 8,
+            "tag": "Awesome Support",
+            "image": "https://preview.colorlib.com/theme/olla/assets/img/icon/services2.svg",
+            "text": "Combine sections from Olla's vast component library and create beautiful."
+        },
+        {
+            "id": 9,
+            "tag": "Responsive Design",
+            "image": "https://preview.colorlib.com/theme/olla/assets/img/icon/services3.svg",
+            "text": "Combine sections from Olla's vast component library and create beautiful."
+        }
+    ]
+}
