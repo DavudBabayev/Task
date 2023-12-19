@@ -1,0 +1,59 @@
+.updatediv {
+    display: none;
+    flex-direction: column;
+    top: calc(60% - 240px);
+    left: calc(50% - 190px);
+    position: fixed;
+    z-index: 1000;
+    width: 380px;
+    height: 330px;
+
+}
+
+form {
+    background: linear-gradient(360deg, rgba(179,10,166,1) 0%, rgba(85,6,195,1) 30%, rgba(0,249,255,1) 100%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+    border-radius: 20px;
+}
+
+form p {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+input {
+    outline: none;
+}
+
+
+.img2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 99999999px;
+    border: 1px solid black;
+}
+
+.img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 9999999px;
+}
+
+
+#submit {
+    background-color: rgba(85,6,195,1);
+    padding: 6px 6px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 12px;
+}

@@ -25,13 +25,14 @@
             height: 30px;
             margin-top: 50px;
             padding-left: 5px;
+            outline: none;
         }
 
         .card{
             width: 100%;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
             gap: 30px;
             div{
                 flex: 1 1 calc(33% - 30px);
@@ -76,6 +77,39 @@
                 p{
                     font-size: 18px;
                     color: gray;
+                }
+                span{
+                    width: 90%;
+                    height: 40px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .delete, .update{
+                        height: 30px;
+                        width: 30%;
+                        border: none;
+                        color: white;
+                        cursor: pointer;
+                    }
+                    a{
+                        width: 30%;
+                        button{
+                            width: 100%;
+                            height: 30px;
+                            border: none;
+                            color: white;
+                            cursor: pointer;
+                        }
+                    }
+                    .delete{
+                        background-color: red;
+                    }
+                    .update{
+                        background-color: green;
+                    }
+                    .details{
+                        background-color: blue;
+                    }
                 }
             }
         }
