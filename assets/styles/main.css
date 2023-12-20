@@ -128,6 +128,13 @@ a {
 .section2 .sec2con .card div span .details {
   background-color: blue;
 }
+.section2 .sec2con .card div #fav {
+  position: absolute;
+  color: red;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
 .section2 .sec2con .load {
   width: 150px;
   height: 30px;
@@ -154,7 +161,7 @@ a {
 }
 
 form {
-  background: linear-gradient(360deg, rgb(179, 10, 166) 0%, rgb(85, 6, 195) 30%, rgb(0, 249, 255) 100%);
+  background: linear-gradient(to top, #001F3F 0%, #003366 25%, #508de8 50%, #9ac9ff 75%, #c2e1fb 100%);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -189,10 +196,10 @@ input {
 }
 
 #submit {
-  background-color: rgb(85, 6, 195);
+  background-color: #c2e1fb;
   padding: 6px 6px;
   border: none;
-  color: white;
+  color: #001F3F;
   font-weight: 500;
   font-size: 16px;
   border-radius: 12px;

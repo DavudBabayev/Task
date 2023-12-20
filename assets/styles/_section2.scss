@@ -111,6 +111,13 @@
                         background-color: blue;
                     }
                 }
+                #fav{
+                    position: absolute;
+                    color: red;
+                    top: 30px;
+                    right: 30px;
+                    cursor: pointer;
+                }
             }
         }
         .load{

@@ -1,4 +1,5 @@
 let url = "http://localhost:3000/card/";
+let favurl = 'http://localhost:3000/favs/';
 
 let card = document.querySelector(".card");
 let searchInp = document.querySelector("#search");
@@ -28,6 +29,7 @@ async function getAllCards(){
         <button class="delete" onclick = "deleteCard(${elem.id})" ><i class="bi bi-trash"></i> Delete</button>
         <button class="update" onclick = "updateCard(${elem.id})"><i class="bi bi-arrow-clockwise"></i> Update</button>
         </span>
+        <i id="fav" class="bi bi-heart" onclick="addFav(${elem.id})" ></i>
         </div>
         `
     });
@@ -116,3 +118,31 @@ function updateCard(id) {
         reader.readAsDataURL(src)
     })
 };
+
+/////////////////FaVORITES/////////////////////
+
+async function addFav(id){
+    if(event.target.classList.contains("bi-heart")){
+        event.target.classList.remove("bi-heart");
+        event.target.classList.add("bi-heart-fill")
+
+        axios.get(url + id).then(res=>{
+            return res.data
+        }).then(res=>{
+            axios.get(favurl).then(response => {
+                let aydi = response.data.find(find=> find.id ===response.id);
+                if(!aydi){
+                    axios.post(favurl, res)
+                } else{
+                    axios.delete(favurl + id)
+                }
+            })
+        })
+    }
+    else{
+        event.preventDefault();
+        event.target.classList.remove('bi-heart-fill');
+        event.target.classList.add('bi-heart');
+        axios.delete(favurl + id);
+    }
+}

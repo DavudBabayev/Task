@@ -11,7 +11,7 @@
 }
 
 form {
-    background: linear-gradient(360deg, rgba(179,10,166,1) 0%, rgba(85,6,195,1) 30%, rgba(0,249,255,1) 100%);
+    background: linear-gradient(to top, #001F3F 0%,#003366 25%,#508de8 50%,#9ac9ff 75%,#c2e1fb 100%);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -49,10 +49,10 @@ input {
 
 
 #submit {
-    background-color: rgba(85,6,195,1);
+    background-color: #c2e1fb;
     padding: 6px 6px;
     border: none;
-    color: white;
+    color: #001F3F;
     font-weight: 500;
     font-size: 16px;
     border-radius: 12px;

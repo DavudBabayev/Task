@@ -13,7 +13,7 @@ fileInp.addEventListener("change", () => {
     reader.onload = function (e) {
         imageDiv.src = e.target.result
     }
-})
+});
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -30,9 +30,9 @@ form.addEventListener('submit', (e) => {
         }
         axios.post(url, objetc).then(res => {
            console.log(res.data);
-        })
+        });
     }
     console.log(objetc);
     reader.readAsDataURL(src);
     window.location = "./main.html"
-})
+});

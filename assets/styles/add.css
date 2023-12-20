@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     top: calc(60% - 240px);
-    left: calc(50% - 190px);
+    left: calc(50% - 225px);
     position: fixed;
     z-index: 1000;
-    width: 380px;
+    width: 450px;
     height: 330px;
   }
   
   form {
-    background: linear-gradient(360deg, rgb(179, 10, 166) 0%, rgb(85, 6, 195) 30%, rgb(0, 249, 255) 100%);
+    background: linear-gradient(to top, #001F3F 0%,#003366 25%,#508de8 50%,#9ac9ff 75%,#c2e1fb 100%);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
     width: 60px;
     height: 60px;
     border-radius: 99999999px;
-    border: 1px solid black;
+    border: 1px solid white;
   }
   
   .img2 img {
@@ -45,10 +45,10 @@
   }
   
   #submit {
-    background-color: rgb(85, 6, 195);
+    background-color: #c2e1fb;
     padding: 6px 6px;
     border: none;
-    color: white;
+    color: #001F3F;
     font-weight: 500;
     font-size: 16px;
     border-radius: 12px;
