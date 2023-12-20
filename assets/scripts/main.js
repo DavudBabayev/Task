@@ -104,7 +104,7 @@ function updateCard(id) {
         let reader = new FileReader();
         reader.onload = (e) => {
             let objetc = {
-                name: nameInp.value,
+                tag: nameInp.value,
                 image: e.target.result,
                 text: textInp.value
             }

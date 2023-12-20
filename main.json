@@ -54,6 +54,12 @@
       "tag": "Responsive Design",
       "image": "https://preview.colorlib.com/theme/olla/assets/img/icon/services3.svg",
       "text": "Combine sections from Olla's vast component library and create beautiful."
+    },
+    {
+      "tag": "Test Name",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAAGCAYAAAChOJL3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAxSURBVEhLY/wPBAyjgKbg06dPUBYEMEHpUUBHMBroAwBGA30AwGigDwAYDXS6AwYGAN8NBt4lyiVtAAAAAElFTkSuQmCC",
+      "text": "Test Text",
+      "id": 10
     }
   ]
 }

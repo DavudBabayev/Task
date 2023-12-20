@@ -196,4 +196,60 @@ input {
   font-weight: 500;
   font-size: 16px;
   border-radius: 12px;
+}
+
+#addPage {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 9999999px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 35px;
+  font-weight: 600;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+#addPage:hover {
+  width: 150px;
+  border-radius: 50px;
+}
+#addPage:hover::after {
+  content: "Add";
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#favPage {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 9999999px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+#favPage:hover {
+  width: 150px;
+  border-radius: 50px;
+}
+#favPage:hover::after {
+  content: "Favorites";
+  font-size: 20px;
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */
